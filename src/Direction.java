@@ -139,12 +139,11 @@ public class Direction extends Thread{
 				if(mazeDone) {break;}
 				}
 				else { location.textArea.append("Maze completion unsuccessful \n");
-				//reached bottom of maze and didn't find logo
-				}
+				//reached bottom of maze and didn't find logo.
 		
 		
 		
-		// this bracket ends the big While loop
+		// this bracket below ends the big While loop. Most everything should be above this.
 		}
 		
 		
