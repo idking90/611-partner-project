@@ -52,6 +52,7 @@ public class Direction extends Thread {
 		  			}
 			}
 			
+			
 		mazeDone = maze.isDone();
 		location.textArea.append("Is the maze done?" + mazeDone + "\n");
 		outcome = this.maze.moveLeft();
